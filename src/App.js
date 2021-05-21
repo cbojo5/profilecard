@@ -5,8 +5,6 @@ function App() {
 
   return (
     <>
-      
-      
        
         <main class="leftside">
         <h1>Learn to code by watching others</h1>
