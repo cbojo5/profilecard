@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.4c568a92.chunk.css",
+    "main.js": "/react/static/js/main.ad0425ae.chunk.js",
+    "main.js.map": "/react/static/js/main.ad0425ae.chunk.js.map",
+    "runtime-main.js": "/react/static/js/runtime-main.7ae66af0.js",
+    "runtime-main.js.map": "/react/static/js/runtime-main.7ae66af0.js.map",
+    "static/js/2.b06e1550.chunk.js": "/react/static/js/2.b06e1550.chunk.js",
+    "static/js/2.b06e1550.chunk.js.map": "/react/static/js/2.b06e1550.chunk.js.map",
+    "static/js/3.c4a43a88.chunk.js": "/react/static/js/3.c4a43a88.chunk.js",
+    "static/js/3.c4a43a88.chunk.js.map": "/react/static/js/3.c4a43a88.chunk.js.map",
+    "index.html": "/react/index.html",
+    "static/css/main.4c568a92.chunk.css.map": "/react/static/css/main.4c568a92.chunk.css.map",
+    "static/js/2.b06e1550.chunk.js.LICENSE.txt": "/react/static/js/2.b06e1550.chunk.js.LICENSE.txt",
+    "static/media/propic2.17b6d6c2.jpeg": "/react/static/media/propic2.17b6d6c2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ae66af0.js",
+    "static/js/2.b06e1550.chunk.js",
+    "static/css/main.4c568a92.chunk.css",
+    "static/js/main.ad0425ae.chunk.js"
+  ]
+}
