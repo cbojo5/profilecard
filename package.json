@@ -1,6 +1,6 @@
 {
-  "homepage":"http://cbojo5.github.io/react",
-  "name": "myreactapp",
+  "homepage":"http://cbojo5.github.io/profilecard",
+  "name": "profilecard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,364 +1,131 @@
+:root{
+  font-size:18px;
+}
+
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
-body {
-  background-image: url(./images/bg-intro-desktop.png);
-  background-color: #ff7a7a;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+section{
+  background:rgb(250, 131, 191);
+  height:100vh;
   display:flex;
   justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card{
+  width: 450px;
+  height: 550px;
+  background:rgb(250, 240, 136);
 
 }
 
-.leftside{
-  color:white;
-  display:flex;
-  width: 395px;
-  flex-wrap: wrap;
+.img-holder{
+  width: 200px;
+  height: 200px;
+  border-radius:50%;
+  overflow: hidden;
+  margin: 20px auto 30px auto;
+}
+
+.img-holder img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text{
   text-align: center;
-  padding-top: 195px;
+  color:rgb(68, 3, 94);
+}
+
+h3{
+  font-size:22px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.container {
+  width: 340px;
+  padding: 15px;
+  padding-left: 95px;
+  align-content:center;
+  justify-content: center;
+  display:flex;
+}
+
+.btn {
+  margin: 20px 5px 20px 20px;
+  padding: 4px 4px;
+  align-content: center;
+  background: rgb(139, 18, 155);
+  color: orange;
+  border:none;
+  text-align: center;
+  border-radius:15px;
+  width:127px;
+  height:50px;
+  display: inline;
+  font-size:14px;
+  font-weight:bold;
   
 }
 
-h1 {
-  margin-right:25px;
-  margin-bottom:15px;
+.likes{
+  color:red;
+  align-content: center;
+  display:block;
+  
+}
+.socials{
+display:flex;
+justify-content: center;
+color:rgb(9, 187, 68);
+}
+
+.fa-facebook-f{
+  margin-right:10px;
+}
+
+
+i { 
+  display: block;
+  margin: 0 5px;
+  font-size: 30px;
+  }
+
+  .btn:hover {
+    background-color: rgb(65, 4, 65);
+    color:orange;
+    cursor: pointer;
+}
+
+.likes {
+  display:flex;
+  justify-content: center;
+  margin-top: -25px;
+  margin-bottom:25px;
+  color:rgb(255, 38, 0);
+
 }
 
 p {
-  font-size: 15px;
-  text-align: left; 
-  margin-left: 55px;
-  line-height: 25px;
+  font-size: 40px;
 }
 
-.line {
-  font-size:small;
+.fas {
+  margin-top: 9px;
+  cursor: pointer;
 }
 
-
-.rightside {
-margin-left:355px;
-margin-top:-445px;
+.socials:hover {
+color:rgb(3, 90, 3);
+cursor: pointer;
 }
 
-
-.signup {
-  display:flex;
-  margin-left: 470px;
-  margin-top:15px;
-  background-color: white;
-  flex-direction: column;
-  flex-wrap:wrap;
-  width:375px;
-  height:360px;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 15px;
-  box-shadow:  0px 2px 5px rgb(80, 79, 79);
-  
-}
-
-.tryitfree {
-  justify-content: center;
-  width:375px;
-  margin-left: 115px;
-  margin-top: 160px;
-  text-align: center;
-  box-shadow: 0px 3px 3px rgb(80, 79, 79);
-  background-color: hsl(248, 32%, 49%);
-  color: white;
-  border-color: hsl(248, 32%, 49%)
-
-}
-
-.tryit {
-  font-weight: 400;
-}
-
-.firstname {
-  border-color:hsl(248, 32%, 49%);
-  border-style: solid;
-  border-width: 0.1px;
-  
-}
-
-
-button { 
-  background-color: white;
-  color:rgb(116, 114, 114);
-  font-family: 'Poppins', sans-serif;
-  border-radius: 7px;
-  margin-top:20px;
-  height: 40px;
-  width: 90%;
-  border-style: solid; 
-  border-color: rgb(236, 233, 233);
-  text-align:left;
-  font-size:10px;
-  font-weight: 600;
-  
-}
-
-.trial{
-  background-color: hsl(154, 59%, 51%);
-  text-align: center;
-  color:white;
-  text-transform:uppercase;
-  
-}
-
-h4{
-  font-size:7px;
-  text-align: center;
-  padding-bottom:18px;
-  color: hsl(246, 25%, 77%);
-}
-
-.terms {
-  color:hsl(0, 100%, 74%)
-}
-
-
-
-@media only screen and (max-width:375px) {
-
-  body {
-    background-image: url(./images/bg-intro-mobile.png);
-      background-color: hsl(0, 100%, 74%);
-      font-family: 'Poppins', sans-serif;
-      font-size: 10px;
-      display:flex;
-      flex-direction: column;   
-  
-  }
-  
-  .leftside{
-      color:white;
-      display:flex;
-      width: 430px;
-      flex-direction: column;
-      margin-top:-155px;
-      margin-left:95px;
-     
-  }
-
-  h1{
-      text-align: center;
-      margin-left: 45px;
-      width:200px;
-  }
-  
-  p {
-     font-size: 11px;
-     text-align: center;
-     margin-right:195px;
-  }  
-
-  .rightside {
- justify-content: center;
- margin-top: 40px;
-  }
-  
-  
-  .signup {
-      display:flex;
-      margin-left: 80px;
-      margin-top:15px;
-      background-color: white;
-      flex-direction: column;
-      flex-wrap:wrap;
-      width:299px;
-      height:270px;
-      align-items: center;
-      border-radius: 15px;
-      box-shadow:  0px 2px 5px rgb(80, 79, 79);
-  }
-  
-  .tryitfree {
-      
-      width:299px;
-      height:55px;
-      margin-left:-273px;
-      margin-top: 5px;
-      text-align: center;
-      box-shadow: 0px 3px 3px rgb(80, 79, 79);
-      background-color: hsl(248, 32%, 49%);
-      color: white;
-      border-color: hsl(248, 32%, 49%);
-      font-weight: 700;
-  }
-  
-  .tryit {
-
-      font-weight: 400;
-      line-height: 200%;
-      display: block;
-  }
-  
-
-  .firstname {
-      
-      visibility: hidden;
-      position:relative;
-  }
-
-  .firstname :after {
-
-      visibility:visible;
-      position: absolute;
-      content: "First Name";
-      background-color: white;
-      color:rgb(116, 114, 114);
-      font-family: 'Poppins', sans-serif;
-      border-radius: 7px;
-      border-style: solid; 
-      border-color: rgb(236, 233, 233);
-      margin-top:20px;
-      height: 20px;
-      width: 98%;
-      margin-left:-55px; 
-      font-size: 10px;
-      margin-top:-5px;
-      text-align: left;
-  }
-
-
-  button { 
-      background-color: white;
-      color:rgb(116, 114, 114);
-      font-family: 'Poppins', sans-serif;
-      border-radius: 7px;
-      margin-top:20px;
-      height: 25px;
-      width: 85%;
-      border-style: solid; 
-      border-color: rgb(236, 233, 233);
-      text-align:left;
-      font-size:10px;
-      font-weight: 600;
-      
-  }
-  
-  .trial{
-      background-color: hsl(154, 59%, 51%);
-      text-align: center;
-      color:white;
-      text-transform:uppercase;
-  }
-  
-  h4{
-      font-size:7px;
-      text-align: center;
-      padding-bottom:18px;
-      color: hsl(246, 25%, 77%);
-      width:170px;
-      line-height: 13px;
-      padding:2px;
-  }
-  
-  .terms {
-      
-      color:hsl(0, 100%, 74%);
-  }  
-
-}
-
-
-@media only screen and (min-width:1440px) {
- 
-  body {
-      background-image: url(./images/bg-intro-desktop.png);
-      background-color: hsl(0, 100%, 74%);
-      font-family: 'Poppins', sans-serif;
-      font-size: 20px;
-      display:flex; 
-     flex-direction: row;
-      
-  }
-
-
-  .leftside{
-      color:white;
-      display:flex;
-      width: 475px;
-      text-align: center;
-      margin-top:400px;
-      margin-left:100px;
-      
-  }
-
-  .rightside {
-      
-      margin-left:5px;
-      }
-      
-      
-      .signup {
-          display:flex;
-          margin-left: 85px;
-          margin-top:5px;
-          background-color: white;
-          width:675px;
-          height:560px;
-          justify-content: space-between;
-          border-radius: 15px;
-          box-shadow:  0px 2px 5px rgb(80, 79, 79);
-          
-      }
-
-      p {
-          font-size: 20px;
-          text-align: left; 
-          margin-left: 55px;
-      }
-      
-      .tryitfree {
-          display:flex;
-          justify-content: center;
-          width:675px;
-          height:60px;
-          margin-left: 85px;
-          margin-top: 300px;
-          text-align: center;
-          box-shadow: 0px 3px 3px rgb(80, 79, 79);
-          background-color: hsl(248, 32%, 49%);
-          color: white;
-          border-color: hsl(248, 32%, 49%);
-          font-size:18px;
-          line-height: 52px;
-        
-      }
-
-      button { 
-          background-color: white;
-          color:rgb(116, 114, 114);
-          font-family: 'Poppins', sans-serif;
-          border-radius: 7px;
-          margin-top:20px;
-          height: 40px;
-          width: 90%;
-          border-style: solid; 
-          border-color: rgb(236, 233, 233);
-          text-align:left;
-          font-size:20px;
-          font-weight: 600;
-          
-      }
-      .line {
-          font-size:x-large;
-      }
-      
-      
-      h4{
-          font-size:18px;
-          text-align: center;
-          padding-bottom:18px;
-          color: hsl(246, 25%, 77%);
-      }
-
-
+.facebook-f:hover {
+color:darkturquoise;
 }
